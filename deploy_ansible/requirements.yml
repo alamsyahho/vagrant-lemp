@@ -1,0 +1,50 @@
+# Install a role from a specific git branch
+- name: common
+  src: https://github.com/alamsyahho/ansible-common-package.git
+  scm: git
+  version: v1.0.0
+
+- name: percona
+  src: https://github.com/alamsyahho/ansible-percona.git
+  scm: git
+  version: v1.1.0
+
+- name: nginx
+  src: https://github.com/alamsyahho/ansible-nginx.git
+  scm: git
+  version: v1.1.0
+
+- name: php-webtatic
+  src: https://github.com/alamsyahho/ansible-php-webtatic.git
+  scm: git
+  version: v1.2.1
+
+- name: supervisord
+  src: https://github.com/alamsyahho/ansible-supervisord.git
+  scm: git
+  version: v1.1.0
+
+- name: geoip
+  src: https://github.com/alamsyahho/ansible-geoip.git
+  scm: git
+  version: v1.0.3
+
+- name: memcached
+  src: https://github.com/alamsyahho/ansible-memcached.git
+  scm: git
+  version: v1.0.0
+
+- name: redis
+  src: https://github.com/alamsyahho/ansible-redis.git
+  scm: git
+  version: v1.0.2
+
+- name: sphinx
+  src: https://github.com/alamsyahho/ansible-sphinx.git
+  scm: git
+  version: v2.0.2
+
+- name: elasticsearch
+  src: https://github.com/alamsyahho/ansible-elasticsearch.git
+  scm: git
+  version: v1.0.0

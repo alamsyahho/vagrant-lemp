@@ -1,0 +1,13 @@
+---
+- hosts: all
+  roles:
+    - common
+    - { role: percona, install_percona_server: true }
+    - { role: nginx, enable_service_nginx: true }
+    - { role: php-webtatic, enable_service_fpm: true }
+    - sphinx
+    - supervisord
+    - geoip
+    - memcached
+    - redis
+    - elasticsearch

@@ -1,0 +1,22 @@
+app1      ansible_connection=local
+
+[nodes]
+app1
+
+[webservers]
+app1
+
+[dbservers]
+app1
+
+[cacheservers]
+app1
+
+[sphinxservers]
+app1
+
+[esservers]
+app1
+
+[workerservers]
+app1
